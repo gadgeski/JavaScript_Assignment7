@@ -9,10 +9,13 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
-  background-color: #f0f2f5;
   color: #333;
 }
+/*==============================================
 
+Clock
+
+==============================================*/
 .clock-container {
   background-color: #ffffff;
   border-radius: 15px;
@@ -74,9 +77,11 @@ Box
   height: 100%;
   border-color: rgba(255, 255, 255, 0.3);
   transition-delay: 0s;
+  border-radius: 10px;
 }
 .box:hover {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
   transition-delay: 0.3s;
+  border-radius: 10px;
 }
