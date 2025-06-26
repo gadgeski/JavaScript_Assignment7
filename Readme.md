@@ -22,15 +22,15 @@ HTML ファイルはウェブページの骨組みを定義します。
 
 <h3>body</h3> ウェブページに実際に表示される内容を記述する部分です。
      
-    <h3>div class="box"</h3> "現在の時刻"というテキストが表示されるボックスです。CSSでこのボックスの見た目が設定されています。
+<h3>div class="box"</h3> "現在の時刻"というテキストが表示されるボックスです。CSSでこのボックスの見た目が設定されています。
      
-     <h3>br</h3> 改行タグです。
+<h3>br</h3> 改行タグです。
      
-     <h3>div class="clock-container"</h3> デジタル時計を表示するためのコンテナ（入れ物）です。
+<h3>div class="clock-container"</h3> デジタル時計を表示するためのコンテナ（入れ物）です。
      
-    <h3><span id="currentTime"></span></h3> デジタル時計の時刻が表示される場所です。JavaScriptがこの<span>要素の中のテキストを更新します。id="currentTime"が付いているので、JavaScriptからこの要素を簡単に特定できます。
+<h3><span id="currentTime"></span></h3> デジタル時計の時刻が表示される場所です。JavaScriptがこの<span>要素の中のテキストを更新します。id="currentTime"が付いているので、JavaScriptからこの要素を簡単に特定できます。
      
-    <h3>script src="script.js"</h3> script.jsという外部JavaScriptファイルを読み込んでいます。このファイルが時計の時間を更新する処理を行います。
+<h3>script src="script.js"</h3> script.jsという外部JavaScriptファイルを読み込んでいます。このファイルが時計の時間を更新する処理を行います。
 
 <h1>CSSの解説</h1>
 CSSファイルはHTML要素の見た目（色、サイズ、配置など）をスタイリングします。
